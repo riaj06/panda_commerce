@@ -6,6 +6,7 @@
 .container {
   margin-bottom: 100px;
 }
+
 .carousel-item {
   padding: 20px 40px;
 }
@@ -21,4 +22,59 @@
   border: none;
   border-radius: 8px;
   cursor: pointer;
+}
+
+/* this is the catagories section */
+.watch,
+.bag,
+.juta {
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.watch {
+  background-color: goldenrod;
+  background-image: linear-gradient(30deg, tomato, orange);
+}
+
+.bag {
+  background-color: rgb(255, 39, 39);
+  background-image: linear-gradient(30deg, rgb(247, 0, 62), rgb(255, 44, 220));
+}
+
+.juta {
+  background-color: blue;
+  background-image: linear-gradient(45deg, blue, rgb(114, 30, 211));
+}
+
+/* this is shoes section */
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px lightgray;
+}
+
+/* this is backpack section */
+
+.card-footer {
+  padding: 0.75rem 1.25rem;
+  border: none;
+  background-color: white;
+}
+
+/* this is contact section */
+
+.contact_us {
+  height: 300px;
+}
+
+.contact_us h6 {
+  color: gray;
+}
+
+/* this is fotter section */
+
+footer {
+  text-align: center;
 }
