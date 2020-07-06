@@ -67,6 +67,8 @@
 
 .contact_us {
   height: 300px;
+  width: auto;
+  border-radius: 10px;
 }
 
 .contact_us h6 {
